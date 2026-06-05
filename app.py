@@ -62,7 +62,7 @@ def send_ticket_email(
 
     sender = "chpurush5@gmail.com"
 
-    app_password = "igolndunmjnnutzm"
+    app_password = os.getenv("EMAIL_PASSWORD")
 
     receiver = "chpurush5@gmail.com"
 
