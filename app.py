@@ -248,10 +248,6 @@ def home():
         
         except:pass
       
-        try:subprocess.run(
-            ["python", "generate_charts.py"],
-            check=True)
-        except:pass
 
     return render_template(
         "index.html",
